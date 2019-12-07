@@ -1,9 +1,42 @@
 @import url('https://fonts.googleapis.com/css?family=Work+Sans:400,700&display=swap');
 
+body {
+  padding: 0;
+  margin: 0;
+}
+
+
+@media only screen and (max-width: 1000px) {
+  div.wrapper {
+    width: 100% !important;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  img {
+    width: 90% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    display: block;
+  }
+
+  div.wrapper {
+    padding: 0 !important;
+  }
+
+  span.header {
+    font-size: 250% !important;
+    margin-top: 0 !important;
+  }
+
+}
+
 div.wrapper {
   margin-left: auto;
   margin-right: auto;
-  width: 1300px;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 1000px;
 }
 span.header {
   background-color: yellow;
@@ -30,4 +63,14 @@ span.Numbers {
   display: inline-block;
   font-family: 'Work Sans';
   font-weight: 600;
+}
+
+p {
+  font-family: 'Work Sans';
+}
+
+.vline {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-bottom: solid 1px #BDBDBD;
 }

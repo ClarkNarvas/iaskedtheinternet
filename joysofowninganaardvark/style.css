@@ -13,6 +13,10 @@ div.head-mobile {
   div.wrapper {
     width: 100% !important;
   }
+
+  .flex {
+    display: block !important;
+  }
 }
 
 
@@ -23,6 +27,7 @@ div.head-mobile {
     margin-right: auto !important;
     display: block;
   }
+
 
   div.wrapper {
     padding: 0 !important;
@@ -98,4 +103,6 @@ p {
   border-bottom: solid 1px #BDBDBD;
 }
 
-.
+.flex {
+  display: flex;
+}

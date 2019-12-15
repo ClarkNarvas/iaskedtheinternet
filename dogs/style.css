@@ -1,0 +1,14 @@
+body {
+  color: white;
+  text-align: center;
+  background-image: url("img/bg.jpg");
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-color: blue;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+img {
+  max-height: 200px;
+  width: auto;
+}

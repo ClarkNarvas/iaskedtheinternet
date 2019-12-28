@@ -119,12 +119,15 @@ span.green {
   }
 
   #showcasearms {
-    height: 150px !important;
+    height: 100px !important;
   }
 
 .content {
   width: 100%;
 }
 
+#crowd {
+  width: 400px !important;
+}
 
 }

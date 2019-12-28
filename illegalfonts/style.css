@@ -126,6 +126,9 @@ span.green {
   width: 100%;
 }
 
+body {
+  overflow: hidden;
+}
 #crowd {
   width: 400px !important;
 }

@@ -2,6 +2,7 @@
 
 ::selection {
   background-color: #71c214;
+  color: white;
 }
 body {
   padding: 0;
@@ -51,6 +52,7 @@ h1 {
 .highlight {
   background-color: #71c214;
   color: white;
+  white-space: nowrap;
 }
 .content {
   margin-left: auto;
@@ -126,9 +128,28 @@ span.green {
   width: 100%;
 }
 
-
+.manifesto {
+  padding-left: 3%;
+  padding-right: 3%;
+}
+.manifestotext {
+  float: none !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
 #crowd {
   width: 400px !important;
 }
+
+}
+
+@media only screen and (max-width: 1456px) {
+
+
+.manifestotext {
+  font-size: 230%;
+  border-left: 10px solid #71c214;
+}
+
 
 }
